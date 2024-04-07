@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="KT:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>KT</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ASM2KTNC-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="KT:war exploded" />
+    </root>
+  </artifact>
+</component>
